@@ -1667,3 +1667,28 @@ a {
         font-size: 2rem;
     }
 }
+/* FINAL RESPONSIVE FIXES */
+
+.menu-category {
+    margin-bottom: 90px;
+
+    transition:
+        opacity 0.35s ease,
+        transform 0.35s ease;
+}
+
+.menu-category:last-of-type {
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .menu-big {
+        grid-row: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-category {
+        margin-bottom: 64px;
+    }
+}
