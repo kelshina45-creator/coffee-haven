@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Coffee Haven | Menu</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">COFFEE HAVEN</div>
+
+            <button class="nav-burger" aria-label="Open navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="menu.html" class="active">Menu</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#reserve">Reserve</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- MENU HERO -->
+    <section class="menu-page-hero">
+        <div class="menu-page-overlay"></div>
+
+        <div class="menu-page-content">
+            <span>Our Full Menu</span>
+            <h1>Fresh Coffee, Sweet Donuts & Golden Croissants</h1>
+            <p>
+                Discover our signature drinks and freshly baked pastries, crafted for slow mornings,
+                warm meetings and beautiful coffee moments.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- FULL MENU -->
+    <section class="full-menu-section">
+        <div class="container">
+
+            <div class="section-header">
+                <span>Choose Your Favorite</span>
+                <h2>Menu Selection</h2>
+            </div>
+
+            <div class="menu-filter">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="coffee">Coffee</button>
+    <button data-filter="donuts">Donuts</button>
+    <button data-filter="croissants">Croissants</button>
+</div>
+
+<div class="menu-status">
+    <p class="menu-status-text">Showing: All menu</p>
+    <p class="menu-status-count">9 items available</p>
+</div>
+
+
+            <!-- COFFEE -->
+            <div class="menu-category" data-category="coffee">
+                <div class="menu-category-title">
+                    <span>01</span>
+                    <h3>Coffee</h3>
+                </div>
+
+                <div class="full-menu-grid">
+
+                    <div class="full-menu-card">
+                        <img src="images/Golden Latte.jpg" alt="Latte coffee">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Golden Latte</h4>
+                                <p>Espresso, steamed milk and soft creamy foam.</p>
+                            </div>
+
+                            <strong>$5.80</strong>
+                        </div>
+                    </div>
+
+                    <div class="full-menu-card">
+                        <img src="images/espresso.jpg" alt="Espresso coffee">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Dark Espresso</h4>
+                                <p>Rich, bold and beautifully intense.</p>
+                            </div>
+
+                            <strong>$3.50</strong>
+                        </div>
+                    </div>
+
+                    <div class="full-menu-card">
+                        <img src="images/Velvet Cappuccino.jpg" alt="Cappuccino">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Velvet Cappuccino</h4>
+                                <p>Balanced espresso with airy milk foam.</p>
+                            </div>
+
+                            <strong>$4.90</strong>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- DONUTS -->
+            <div class="menu-category" data-category="donuts">
+                <div class="menu-category-title">
+                    <span>02</span>
+                    <h3>Donuts</h3>
+                </div>
+
+                <div class="full-menu-grid">
+
+                    <div class="full-menu-card">
+                        <img src="images/donut-chocolate.jpg" alt="Chocolate donut">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Chocolate Donut</h4>
+                                <p>Soft donut with glossy chocolate glaze.</p>
+                            </div>
+
+                            <strong>$3.90</strong>
+                        </div>
+                    </div>
+
+                    <div class="full-menu-card">
+                        <img src="images/donut-caramel.jpg" alt="Caramel donut">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Caramel Donut</h4>
+                                <p>Sweet caramel topping with a soft golden base.</p>
+                            </div>
+
+                            <strong>$4.20</strong>
+                        </div>
+                    </div>
+
+                    <div class="full-menu-card">
+                        <img src="images/donut-berry.jpg" alt="Berry donut">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Berry Donut</h4>
+                                <p>Light berry glaze with a fresh fruity finish.</p>
+                            </div>
+
+                            <strong>$4.10</strong>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- CROISSANTS -->
+            <div class="menu-category"  data-category="croissants">
+                <div class="menu-category-title">
+                    <span>03</span>
+                    <h3>Croissants</h3>
+                </div>
+
+                <div class="full-menu-grid">
+
+                    <div class="full-menu-card">
+                        <img src="images/croissant-classic.jpg" alt="Classic croissant">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Classic Croissant</h4>
+                                <p>Golden, buttery and perfectly flaky.</p>
+                            </div>
+
+                            <strong>$3.80</strong>
+                        </div>
+                    </div>
+
+                    <div class="full-menu-card">
+                        <img src="images/croissant-chocolate.jpg" alt="Chocolate croissant">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Chocolate Croissant</h4>
+                                <p>Flaky pastry with a warm chocolate filling.</p>
+                            </div>
+
+                            <strong>$4.50</strong>
+                        </div>
+                    </div>
+
+                    <div class="full-menu-card">
+                        <img src="images/croissant-almond.jpg" alt="Almond croissant">
+
+                        <div class="full-menu-info">
+                            <div>
+                                <h4>Almond Croissant</h4>
+                                <p>Buttery croissant with almond cream and flakes.</p>
+                            </div>
+
+                            <strong>$4.80</strong>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- CTA -->
+            <div class="menu-page-cta">
+                <h2>Ready for your coffee moment?</h2>
+                <p>Book a cozy table and enjoy your favorite drink with fresh pastry.</p>
+
+                <a href="index.html#reserve" class="btn-gold">
+                    Reserve a Table
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <footer class="contact-section" id="contact">
+        <div class="container contact-container">
+
+            <div class="contact-brand">
+                <div class="logo">COFFEE HAVEN</div>
+                <p>
+                    Crafted coffee, warm atmosphere and elegant everyday moments.
+                </p>
+            </div>
+
+            <div class="contact-column">
+                <h3>Location</h3>
+                <p>12 Coffee Street<br>Barcelona, Spain</p>
+            </div>
+
+            <div class="contact-column">
+                <h3>Hours</h3>
+                <p>Mon — Sun<br>08:00 — 22:00</p>
+            </div>
+
+            <div class="contact-column">
+                <h3>Contact</h3>
+                <p>hello@coffeehaven.com<br>+34 600 000 000</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Coffee Haven. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Haven | Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">COFFEE HAVEN</div>
+
+        <button class="nav-burger" aria-label="Open navigation menu">
+    <span></span>
+    <span></span>
+    <span></span>
+</button>
+
+        <div class="nav-links">
+    <a href="menu.html">Menu</a>
+    <a href="#about">About</a>
+    <a href="#reserve">Reserve</a>
+    <a href="#contact">Contact</a>
+</div>
+    </div>
+</nav>
+
+
+<section class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+        <h1>Crafted Coffee Experience</h1>
+        <p>Where design meets flavor</p>
+
+        <div class="hero-buttons">
+            <a href="#reserve"  class="btn-outline">Reserve</a>
+            <a href="menu.html"  class="btn-gold">View Menu</a>
+        </div>
+    </div>
+</section>
+<section class="menu-preview" id="menu">
+    <div class="container">
+
+        <div class="section-header">
+            <span>Our Selection</span>
+            <h2>Signature Coffee</h2>
+        </div>
+
+        <div class="menu-layout">
+
+            <div class="menu-big">
+                <img src="images/латте.jpg" alt="">
+            </div>
+
+            <div class="menu-small">
+                <img src="images/pexels-enginakyurt-9899791.jpg">
+            </div>
+
+            <div class="menu-small">
+                <img src="images/эспрес.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="menu-cta">
+            <a href="#reserve" class="btn-gold">
+                Reserve a Table
+            </a>
+        </div>
+
+    </div>
+</section>
+<!-- ABOUT SECTION -->
+<section class="about-section" id="about">
+    <div class="container about-container">
+
+        <div class="about-image">
+            <img src="images/hero2.jpg" alt="Coffee shop interior">
+        </div>
+
+        <div class="about-content">
+            <span>About Coffee Haven</span>
+            <h2>A warm place for coffee, calm mornings and beautiful conversations.</h2>
+
+            <p>
+                Coffee Haven is a modern coffee house created for people who appreciate
+                rich coffee, cozy interiors and peaceful moments. Every detail — from
+                the lighting to the flavor — is designed to make your visit feel special.
+            </p>
+
+            <div class="about-features">
+                <div>
+                    <strong>25+</strong>
+                    <p>Signature drinks</p>
+                </div>
+
+                <div>
+                    <strong>4.9</strong>
+                    <p>Guest rating</p>
+                </div>
+
+                <div>
+                    <strong>7</strong>
+                    <p>Days open</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- RESERVE SECTION -->
+<section class="reserve-section" id="reserve">
+    <div class="container reserve-container">
+
+        <div class="reserve-content">
+            <span>Reservation</span>
+            <h2>Book your table for a perfect coffee moment.</h2>
+
+            <p>
+                Reserve a cozy table for breakfast, remote work, a date or an evening
+                coffee with friends.
+            </p>
+
+            <div class="reserve-details">
+                <div>
+                    <strong>Opening Hours</strong>
+                    <p>Monday — Sunday<br>08:00 — 22:00</p>
+                </div>
+
+                <div>
+                    <strong>Location</strong>
+                    <p>12 Coffee Street<br>Barcelona, Spain</p>
+                </div>
+            </div>
+        </div>
+
+        <form class="reserve-form">
+            <div class="form-row">
+                <input type="text" placeholder="Your name" required>
+                <input type="email" placeholder="Email address" required>
+            </div>
+
+            <div class="form-row">
+                <input type="date" required>
+
+                <select required>
+                    <option value="">Guests</option>
+                    <option value="1">1 guest</option>
+                    <option value="2">2 guests</option>
+                    <option value="3">3 guests</option>
+                    <option value="4">4 guests</option>
+                    <option value="5">5+ guests</option>
+                </select>
+            </div>
+
+            <textarea placeholder="Special request"></textarea>
+
+            <button type="submit" class="btn-gold form-button">
+                Send Request
+            </button>
+        </form>
+
+    </div>
+</section>
+
+
+<!-- CONTACT SECTION -->
+<footer class="contact-section" id="contact">
+    <div class="container contact-container">
+
+        <div class="contact-brand">
+            <div class="logo">COFFEE HAVEN</div>
+            <p>
+                Crafted coffee, warm atmosphere and elegant everyday moments.
+            </p>
+        </div>
+
+        <div class="contact-column">
+            <h3>Location</h3>
+            <p>12 Coffee Street<br>Barcelona, Spain</p>
+        </div>
+
+        <div class="contact-column">
+            <h3>Hours</h3>
+            <p>Mon — Sun<br>08:00 — 22:00</p>
+        </div>
+
+        <div class="contact-column">
+            <h3>Contact</h3>
+            <p>hello@coffeehaven.com<br>+34 600 000 000</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Coffee Haven. All rights reserved.</p>
+    </div>
+</footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
